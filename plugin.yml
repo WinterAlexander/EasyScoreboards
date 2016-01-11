@@ -1,0 +1,5 @@
+name: EasyScoreboards
+main: me.winterguardian.easyscoreboards.ScoreboardAPI
+version: 1.1.2
+description: An simple API to make scoreboards easier and quickly !
+author: WinterGuardian
