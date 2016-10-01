@@ -76,7 +76,7 @@ public class ScoreboardUtil
 
 	}
 
-	public static boolean unrankedSidebarDisplay(Player p, String[] elements)
+	public static boolean unrankedSidebarDisplay(Player p, String... elements)
 	{
 		elements = cutUnranked(elements);
 
@@ -144,7 +144,7 @@ public class ScoreboardUtil
 		return true;
 	}
 
-	public static boolean unrankedSidebarDisplay(Collection<Player> players, String[] elements, Scoreboard board)
+	public static boolean unrankedSidebarDisplay(Collection<Player> players, Scoreboard board, String... elements)
 	{
 		try
 		{
